@@ -15,6 +15,6 @@ def upload_file(file_name, bucket, object_name=None):
     return 'Failed to upload file'
   return 'File uploaded successfully'
 
-response = upload_file('test.txt', 'wjm-test-bucket')
+response = upload_file('file_name.txt', 'wjm-test-bucket')
 
 print(response)
